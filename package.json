@@ -1,0 +1,15 @@
+{
+  "name": "postcss-identifiers-codepen",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "browserify codepen.js | babel --presets=env | uglifyjs --compress --mangle > codepen.dist.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "browserify": "^14.3.0",
+    "postcss-identifiers": "jonathantneal/postcss-identifiers",
+    "uglify-js": "^3.0.4"
+  },
+  "private": true
+}
