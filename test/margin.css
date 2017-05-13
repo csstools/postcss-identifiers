@@ -1,0 +1,33 @@
+test-margin-directions {
+	/* inline */
+	margin: [inline] 5px;
+	/* block */
+	margin: [block] 5px;
+	/* start */
+	margin: [start] 5px;
+	/* end */
+	margin: [end] 5px;
+}
+
+test-margin-directions-2-values {
+	/* inline */
+	margin: [inline] 10px 5px;
+	/* block */
+	margin: [block] 10px 5px;
+	/* start */
+	margin: [start] 10px 5px;
+	/* end */
+	margin: [end] 10px 5px;
+}
+
+test-margin-multiple-values {
+	margin: [inline-start] 40px [inline-end] 20px [block-start] 10px [block-end] 5px;
+}
+
+test-margin-multiple-shorthand-values {
+	margin: [is] 40px [ie] 20px [bs] 10px [be] 5px;
+}
+
+test-margin-multiple-special-values {
+	margin: [+] 320px [-] 160px [|] 80px [<] 40px [>] 20px [^] 10px [v] 5px;
+}

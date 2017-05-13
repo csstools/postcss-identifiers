@@ -1,0 +1,22 @@
+test-text {
+	text: normal;
+}
+
+test-text-values {
+	text: [align] center;
+	text: [color] rebeccapurple;
+	text: [decoration] underline;
+	text: [family] sans-serif;
+	text: [line] 2;
+	text: [size] 100%;
+	text: [stretch] semi-condensed;
+	text: [style] italic;
+	text: [rendering] optimizeLegibility;
+	text: [transform] uppercase;
+	text: [variant] small-caps;
+	text: [weight] bold;
+}
+
+test-text-multiple-values {
+	text: [align] center [color] rebeccapurple [decoration] underline [family] sans-serif [line] 2 [size] 100% [stretch] semi-condensed [style] italic [rendering] optimizeLegibility [transform] uppercase [variant] small-caps [weight] bold;
+}

@@ -1,0 +1,33 @@
+test-text {
+	text: normal;
+}
+
+test-text-values {
+	text-align: center;
+	color: rebeccapurple;
+	text-decoration: underline;
+	font-family: sans-serif;
+	line-height: 2;
+	font-size: 100%;
+	font-stretch: semi-condensed;
+	font-style: italic;
+	text-rendering: optimizeLegibility;
+	text-transform: uppercase;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+test-text-multiple-values {
+	text-align: center;
+	color: rebeccapurple;
+	text-decoration: underline;
+	font-family: sans-serif;
+	line-height: 2;
+	font-size: 100%;
+	font-stretch: semi-condensed;
+	font-style: italic;
+	text-rendering: optimizeLegibility;
+	text-transform: uppercase;
+	font-variant: small-caps;
+	font-weight: bold;
+}
